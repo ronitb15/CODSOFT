@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronit Bhawnani — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">RonitBhawnani</a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#work" class="nav__link">Work</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting">Hi, I'm</p>
+        <h1 class="hero__name">Ronit Bhawnani</h1>
+        <p class="hero__tagline">
+          I build thoughtful digital experiences<br>
+          that people actually enjoy using.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary">See my work</a>
+          <a href="#contact" class="btn btn--outline">Say hello</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image">
+          <div class="about__image-placeholder">
+            <span>📸</span>
+          </div>
+        </div>
+
+        <div class="about__text">
+          <h2 class="section__title">About Me</h2>
+
+          <p>
+            I'm Ronit Bhawnani, a front-end developer passionate about creating
+            modern, responsive, and user-friendly websites. I enjoy turning ideas
+            into interactive digital experiences using HTML, CSS, JavaScript, and React.
+          </p>
+
+          <p>
+            I'm constantly learning new technologies, improving my development
+            skills, and building projects that solve real-world problems.
+          </p>
+
+          <p>
+            My goal is to become a skilled full-stack developer and contribute to
+            meaningful products through clean code and creative thinking.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section__title section__title--centered">Things I Work With</h2>
+      <p class="section__subtitle">
+        Tools & technologies I use regularly.
+      </p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <span class="skill-card__icon">⚛️</span>
+          <h3 class="skill-card__title">React</h3>
+          <p class="skill-card__desc">
+            Building responsive and interactive web applications.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-card__icon">🎨</span>
+          <h3 class="skill-card__title">UI / UX Design</h3>
+          <p class="skill-card__desc">
+            Creating clean, user-friendly interfaces with Figma.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-card__icon">🗄️</span>
+          <h3 class="skill-card__title">Node.js</h3>
+          <p class="skill-card__desc">
+            Developing backend APIs and server-side applications.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-card__icon">📱</span>
+          <h3 class="skill-card__title">Responsive CSS</h3>
+          <p class="skill-card__desc">
+            Designing websites that work on every screen size.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-card__icon">🐍</span>
+          <h3 class="skill-card__title">Python</h3>
+          <p class="skill-card__desc">
+            Writing efficient programs and solving coding problems.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-card__icon">☁️</span>
+          <h3 class="skill-card__title">Cloud & DevOps</h3>
+          <p class="skill-card__desc">
+            Learning deployment, hosting, and cloud platforms.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="work section" id="work">
+    <div class="container">
+      <h2 class="section__title section__title--centered">Projects</h2>
+      <p class="section__subtitle">
+        Some projects I've worked on.
+      </p>
+
+      <div class="work__grid">
+
+        <article class="work-card">
+          <div class="work-card__thumb" style="background:#dbeafe">
+            <span>🌿</span>
+          </div>
+
+          <div class="work-card__body">
+            <h3 class="work-card__title">GroWise</h3>
+            <p class="work-card__desc">
+              A smart plant-care application that reminds users about watering
+              and maintenance.
+            </p>
+
+            <div class="work-card__tags">
+              <span>React</span>
+              <span>Firebase</span>
+              <span>Chart.js</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__thumb" style="background:#fce7f3">
+            <span>🎵</span>
+          </div>
+
+          <div class="work-card__body">
+            <h3 class="work-card__title">JamSesh</h3>
+            <p class="work-card__desc">
+              A real-time collaborative music playlist application.
+            </p>
+
+            <div class="work-card__tags">
+              <span>Next.js</span>
+              <span>Socket.io</span>
+              <span>Spotify API</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__thumb" style="background:#fef3c7">
+            <span>📋</span>
+          </div>
+
+          <div class="work-card__body">
+            <h3 class="work-card__title">Boardly</h3>
+            <p class="work-card__desc">
+              A Kanban-based task management platform with real-time updates.
+            </p>
+
+            <div class="work-card__tags">
+              <span>Vue</span>
+              <span>Supabase</span>
+              <span>DnD Kit</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial section">
+    <div class="container">
+      <blockquote class="testimonial__block">
+        <p>
+          "Ronit is dedicated, always eager to learn, and consistently delivers
+          quality work with attention to detail."
+        </p>
+
+        <footer>
+          <strong>— Team Member</strong>
+          <span>Project Collaborator</span>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <h2 class="section__title section__title--centered">
+          Let's Build Something Together
+        </h2>
+
+        <p class="section__subtitle">
+          Have a project or opportunity? Feel free to contact me.
+        </p>
+
+        <a href="mailto:bhawnanirohan97@gmail.com" class="btn btn--primary btn--large">
+          ronitbhawnani@gmail.com
+        </a>
+
+        <div class="contact__socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Ronit Bhawnani. Built with ❤️.</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("nav");
+
+    hamburger.addEventListener("click", () => {
+      nav.classList.toggle("nav--open");
+      hamburger.classList.toggle("hamburger--active");
+    });
+
+    document.querySelectorAll(".nav__link").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("nav--open");
+        hamburger.classList.remove("hamburger--active");
+      });
+    });
+  </script>
+
+</body>
+</html>
